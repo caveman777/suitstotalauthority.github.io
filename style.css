@@ -1,0 +1,506 @@
+/** Add any CSS you need to this file. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: white;
+  background-image: url('images/9.jpg');
+  background-repeat: repeat-y, no-repeat;
+  background-position: center top, -550px 50px;
+}
+
+.top-line {
+  background: crimson;
+  width: 100%;
+}
+
+.besttext {
+  width: 400px;
+  margin: 0 auto;
+  color: black;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: 'Bangers', Arial, cursive;
+
+  font-size: 26px;
+  text-align: center;
+}
+
+.nav-top {
+  width: 1300px;
+  margin: 0 auto;
+  padding-top: 1200 px;
+}
+
+.logo {
+  width: 270 px;
+  float: left;
+}
+
+.menu {
+  width: 700 px;
+  padding-top: 42px;
+}
+
+#menu-top {
+  list-style-type: none;
+}
+
+#menu-top li {
+  float: left;
+  margin-left: 90px;
+  margin-right: 40px;
+  font-size: 25px;
+}
+
+#menu-top a {
+  font-family: 'Black Ops One', Geneva, cursive;
+  font-size: 25px;
+  color: crimson;
+  text-decoration: none;
+}
+
+.goods-min-cart {
+  width: 15%;
+  background: #323232;
+  margin-top: 4%;
+  margin-right: 4%;
+  padding-left: 1%;
+  text-align: center;
+  float: right;
+}
+
+.goods-min-cart h3 {
+  font-family: 'Cormorant Garamond', Geneva, serif;
+  font-size: 25px;
+  color: #000000;
+  float: left;
+}
+
+.goods-min-cart h4 {
+  font-family: 'Cormorant Garamond', Geneva, serif;
+  font-size: 18px;
+  color: #ff1e56;
+  border: 1px solid black;
+}
+
+.goods-min-cart p {
+  font-family: 'Girassol', Geneva, cursive;
+  font-size: 25px;
+  color: #ffac41;
+}
+
+.goods-min-cart img {
+  max-width: 95%;
+  float: left;
+}
+
+.goods-min-cart1 {
+  width: 15%;
+  background: #323232;
+  margin-top: -1.5%;
+  margin-right: 4%;
+  padding-left: 1%;
+  text-align: center;
+  float: right;
+}
+
+.goods-min-cart1 h3 {
+  font-family: 'Cormorant Garamond', Geneva, serif;
+  font-size: 25px;
+  color: #000000;
+  float: left;
+}
+
+.goods-min-cart1 h4 {
+  font-family: 'Cormorant Garamond', Geneva, serif;
+  font-size: 18px;
+  color: #ff1e56;
+  border: 1px solid black;
+}
+
+.goods-min-cart1 p {
+  font-family: 'Girassol', Geneva, cursive;
+  font-size: 25px;
+  color: #ffac41;
+}
+
+.goods-min-cart1 img {
+  max-width: 95%;
+  float: left;
+}
+
+.goods-min-cart2 {
+  width: 15%;
+  background: #323232;
+  margin-top: -1.5%;
+  margin-right: 4%;
+  padding-left: 1%;
+  text-align: center;
+  float: right;
+}
+
+.goods-min-cart2 h3 {
+  font-family: 'Cormorant Garamond', Geneva, serif;
+  font-size: 25px;
+  color: #000000;
+  float: left;
+}
+
+.goods-min-cart2 h4 {
+  font-family: 'Cormorant Garamond', Geneva, serif;
+  font-size: 18px;
+  color: #ff1e56;
+  border: 1px solid black;
+}
+
+.goods-min-cart2 p {
+  font-family: 'Girassol', Geneva, cursive;
+  font-size: 25px;
+  color: #ffac41;
+}
+
+.goods-min-cart2 img {
+  max-width: 95%;
+  float: left;
+}
+
+.gmap_canvas {
+  width: 100%;
+  padding-left: 200 px;
+  float: left;
+}
+
+.footer {
+  font-family: 'Black Ops One', Geneva, cursive;
+  padding-top: 1350px;
+  padding-left: 100px;
+  width: 100%;
+  color: #ffac41;
+  text-align: left;
+  font-family: 'Cormorant Garamond', Geneva, serif;
+  position: absolute;
+}
+
+.footer h4:after {
+  content: '\21A7';
+}
+
+.footer h4 {
+  width: 700;
+  color: #ff1e56;
+  padding-left: 200px;
+}
+
+.footer h2 {
+  width: 100%;
+  color: #ff1e56;
+  padding-left: 150px;
+}
+
+.form {
+  color: #ff1e56;
+  font-size: 27px;
+  width: 100%;
+  padding-top: 1700px;
+  padding-left: 700px;
+  text-align: center;
+}
+
+input[type='text'] {
+  width: 30%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type='text']:focus {
+  border-color: #ff1e56;
+  box-shadow: 0 0 8px 0 #ff1e56;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon input[type='text']:focus + i {
+  color: #ff1e56;
+}
+
+.inputWithIcon.inputIconBg i {
+  background-color: #aaa;
+  color: #fff;
+  padding: 10px 5px;
+  border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input[type='text']:focus + i {
+  color: #fff;
+  background-color: d#ff1e56;
+}
+
+.form2 {
+  color: #ff1e56;
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
+  padding-top: 200px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0 auto;
+    background-color: white;
+    background-image: url('images/9.jpg');
+    background-repeat: repeat-y, no-repeat;
+    background-position: center top, -550px 50px;
+  }
+
+  .top-line {
+    background: crimson;
+    width: 100%;
+  }
+
+  .besttext {
+    width: 400px;
+    margin: 0 auto;
+    color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Bangers', Arial, cursive;
+
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .nav-top {
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 1200 px;
+  }
+
+  .logo {
+    width: 270 px;
+    float: left;
+  }
+
+  .menu {
+    width: 700 px;
+    padding-top: 42px;
+  }
+
+  #menu-top {
+    list-style-type: none;
+  }
+
+  #menu-top li {
+    float: left;
+    margin-left: 90px;
+    margin-right: 40px;
+    font-size: 25px;
+  }
+
+  #menu-top a {
+    font-family: 'Black Ops One', Geneva, cursive;
+    font-size: 25px;
+    color: crimson;
+    text-decoration: none;
+  }
+
+  .goods-min-cart {
+    width: 15%;
+    background: #323232;
+    margin-top: 4%;
+    margin-right: 4%;
+    padding-left: 1%;
+    text-align: center;
+    float: right;
+  }
+
+  .goods-min-cart h3 {
+    font-family: 'Cormorant Garamond', Geneva, serif;
+    font-size: 25px;
+    color: #000000;
+    float: left;
+  }
+
+  .goods-min-cart h4 {
+    font-family: 'Cormorant Garamond', Geneva, serif;
+    font-size: 18px;
+    color: #ff1e56;
+    border: 1px solid black;
+  }
+
+  .goods-min-cart p {
+    font-family: 'Girassol', Geneva, cursive;
+    font-size: 25px;
+    color: #ffac41;
+  }
+
+  .goods-min-cart img {
+    max-width: 95%;
+    float: left;
+  }
+
+  .goods-min-cart1 {
+    width: 15%;
+    background: #323232;
+    margin-top: -1.5%;
+    margin-right: 4%;
+    padding-left: 1%;
+    text-align: center;
+    float: right;
+  }
+
+  .goods-min-cart1 h3 {
+    font-family: 'Cormorant Garamond', Geneva, serif;
+    font-size: 25px;
+    color: #000000;
+    float: left;
+  }
+
+  .goods-min-cart1 h4 {
+    font-family: 'Cormorant Garamond', Geneva, serif;
+    font-size: 18px;
+    color: #ff1e56;
+    border: 1px solid black;
+  }
+
+  .goods-min-cart1 p {
+    font-family: 'Girassol', Geneva, cursive;
+    font-size: 25px;
+    color: #ffac41;
+  }
+
+  .goods-min-cart1 img {
+    max-width: 95%;
+    float: left;
+  }
+
+  .goods-min-cart2 {
+    width: 15%;
+    background: #323232;
+    margin-top: -1.5%;
+    margin-right: 4%;
+    padding-left: 1%;
+    text-align: center;
+    float: right;
+  }
+
+  .goods-min-cart2 h3 {
+    font-family: 'Cormorant Garamond', Geneva, serif;
+    font-size: 25px;
+    color: #000000;
+    float: left;
+  }
+
+  .goods-min-cart2 h4 {
+    font-family: 'Cormorant Garamond', Geneva, serif;
+    font-size: 18px;
+    color: #ff1e56;
+    border: 1px solid black;
+  }
+
+  .goods-min-cart2 p {
+    font-family: 'Girassol', Geneva, cursive;
+    font-size: 25px;
+    color: #ffac41;
+  }
+
+  .goods-min-cart2 img {
+    max-width: 95%;
+    float: left;
+  }
+
+  .gmap_canvas {
+    width: 100%;
+    padding-left: 200 px;
+    float: left;
+  }
+
+  .footer {
+    font-family: 'Black Ops One', Geneva, cursive;
+    padding-top: 1350px;
+    padding-left: 100px;
+    width: 100%;
+    color: #ffac41;
+    text-align: left;
+    font-family: 'Cormorant Garamond', Geneva, serif;
+    position: absolute;
+  }
+
+  .footer h4:after {
+    content: '\21A7';
+  }
+
+  .footer h4 {
+    width: 700;
+    color: #ff1e56;
+    padding-left: 200px;
+  }
+
+  .footer h2 {
+    width: 100%;
+    color: #ff1e56;
+    padding-left: 150px;
+  }
+
+  .form {
+    color: #ff1e56;
+    font-size: 27px;
+    width: 100%;
+    padding-top: 1700px;
+    padding-left: 700px;
+    text-align: center;
+  }
+
+  input[type='text'] {
+    width: 30%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+
+  input[type='text']:focus {
+    border-color: #ff1e56;
+    box-shadow: 0 0 8px 0 #ff1e56;
+  }
+
+  .inputWithIcon {
+    position: relative;
+  }
+
+  .inputWithIcon input[type='text']:focus + i {
+    color: #ff1e56;
+  }
+
+  .inputWithIcon.inputIconBg i {
+    background-color: #aaa;
+    color: #fff;
+    padding: 10px 5px;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .inputWithIcon.inputIconBg input[type='text']:focus + i {
+    color: #fff;
+    background-color: d#ff1e56;
+  }
+
+  .form2 {
+    color: #ff1e56;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+  }
+}
